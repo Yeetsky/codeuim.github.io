@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movers Prime</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        main {
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .moving-truck-image {
+            display: block;
+            margin: 0 auto;
+        }
+        .ask-questions-section {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .ask-questions-section input[type="text"],
+        .ask-questions-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .ask-questions-section button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><button onclick="showAskQuestionsSection()">Ask Questions</button></li>
+            </ul>
+        </nav>
+        <img class="moving-truck-image" src="moving-truck.jpg" alt="Moving Truck">
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Movers Prime</h2>
+            <p>We offer a wide range of moving services to help you move your belongings with ease.</p>
